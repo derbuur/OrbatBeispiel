@@ -1,0 +1,237 @@
+enableDebugConsole = 2; //dangerous in MP
+class cfgORBAT
+{
+  class SPZPlatoon
+  {
+    id = 1;
+    side = "west";
+    size = "Platoon";
+    type = "MechanizedInfantry";
+    textShort = "%1 Platoon"
+
+    class SPZSquadAlpha
+    {
+      id = 1;
+      idType = 2;
+      side = "west";
+      size = "Section";
+      type = "MechanizedInfantry";
+      textShort = "%1 Squad"
+
+      class SPZAlpha
+      {
+        id = 1;
+        idType = 2;
+        side = "west";
+        size = "Squad";
+        type = "Armored";
+        textShort = "SPZ %1"
+
+        class SPZAlphaman1
+        {
+          id = 1;
+          side = "west";
+          textShort = "SPZ Commandant";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class SPZAlphaman2
+        {
+          id = 2;
+          side = "west";
+          textShort = "SPZ Fahrer";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class SPZAlphaman3
+        {
+          id = 3;
+          side = "west";
+          textShort = "SPZ Kanonier";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+      };
+
+      class InfAlpha
+      {
+        id = 1;
+        idType = 2;
+        side = "west";
+        size = "Squad";
+        type = "Infantry";
+        textShort = "Inf %1";
+
+        class InfAlphaMan1
+        {
+          id = 1;
+          side = "west";
+          size = "Platoon";
+          textShort = "Platoon Lead";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManOfficer_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfAlphaMan2
+        {
+          id = 1;
+          side = "west";
+          textShort = "LMG";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManMG_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfAlphaMan3
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfAlphaMan4
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfAlphaMan5
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfAlphaMan6
+        {
+          id = 1;
+          side = "west";
+          textShort = "Sani";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManMedic_ca.paa";
+          textureSize = 0.5;
+        };
+      };
+    };
+
+    class SPZSquadBravo
+    {
+      id = 2;
+      idType = 2;
+      side = "west";
+      size = "Section";
+      type = "MechanizedInfantry";
+      textShort = "%1 Squad"
+
+      class SPZBRavo
+      {
+        id = 2;
+        idType = 2;
+        side = "west";
+        size = "Squad";
+        type = "Armored";
+        textShort = "SPZ %1"
+
+        class SPZBravoman1
+        {
+          id = 1;
+          side = "west";
+          textShort = "SPZ Commandant";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class SPZBravoman2
+        {
+          id = 2;
+          side = "west";
+          textShort = "SPZ Fahrer";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class SPZBravoman3
+        {
+          id = 3;
+          side = "west";
+          textShort = "SPZ Kanonier";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+      };
+
+      class InfBRavo
+      {
+        id = 2;
+        idType = 2;
+        side = "west";
+        size = "Squad";
+        type = "Infantry";
+        textShort = "Inf %1";
+
+        class InfBravoMan1
+        {
+          id = 1;
+          side = "west";
+          //size = "Platoon";
+          size = "Section";
+          textShort = "Platoon Sergant";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfBRavoMan2
+        {
+          id = 1;
+          side = "west";
+          textShort = "LMG";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManMG_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfBRavoMan3
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfBravoMan4
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfBRavoMan5
+        {
+          id = 1;
+          side = "west";
+          textShort = "Schütze";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+          textureSize = 0.5;
+        };
+
+        class InfBravoMan6
+        {
+          id = 1;
+          side = "west";
+          textShort = "Sani";
+          texture = "\A3\ui_f\data\map\vehicleicons\iconManMedic_ca.paa";
+          textureSize = 0.5;
+        };
+      };
+    };
+  };
+};
